@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo2.PNG" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <!-- reCAPTCHA -->
+                <div class="fake-recaptcha">
+                    <input type="checkbox" class="inp-cbx" id="fake-recaptcha-checkbox" required>
+                    <label class="cbx" for="fake-recaptcha-checkbox">
+                <span>
+                    <svg width="12px" height="10px" viewBox="0 0 12 10">
+                     <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                </svg>
+            </span>
+            <span>I'm not a robot</span>
+        </label>
+        <div class="recaptcha-badge">
+            <span>reCAPTCHA</span>
+            <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA logo">
+        </div>
+    </div>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="register.html">Create one here</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
