@@ -4,7 +4,7 @@
 
 This project was developed upon the request of my client, a student, to fulfill their academic requirements. The karenderya system is designed to streamline the operations of a traditional food stall, incorporating essential features to improve efficiency and usability.
 
-[![Project Deployment](https://img.shields.io/badge/Deployed%20Project-Online-brightgreen?style=for-the-badge)](https://raltom1.github.io/clientProject-student/) [![Made with React](https://img.shields.io/badge/Made%20with-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Project Deployment](https://img.shields.io/badge/Deployed%20Project-Online-brightgreen?style=for-the-badge)](https://raltom1.github.io/clientProject-student/) [![Made with HTML](https://img.shields.io/badge/Made%20with-HTML-orange?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![Made with CSS](https://img.shields.io/badge/Styled%20with-CSS-blue?style=for-the-badge&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
 
@@ -35,8 +35,9 @@ Access the project here: [Karenderya System](https://raltom1.github.io/clientPro
 
 ## 🛠️ Technologies Used
 
-- [React](https://reactjs.org/) - For the user interface.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - For the structure of the website.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - For styling and layout.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - For interactive functionality.
 - [GitHub Pages](https://pages.github.com/) - For project deployment.
 
 ---
@@ -53,17 +54,9 @@ To run the project locally:
    ```bash
    cd clientProject-student
    ```
-3. Install dependencies:
-   ```bash
-   npm install
+3. Open `index.html` in your preferred browser:
    ```
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-5. Open your browser and navigate to:
-   ```
-   http://localhost:3000
+   open index.html
    ```
 
 ---
